@@ -1,0 +1,22 @@
+@import '../../common';
+
+.header-full-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: $main-theme-color;
+    nav {
+        padding: 20px 30px;
+        border-radius: 4px;
+        color: $second-text-color;
+        background-color: $second-theme-color;
+        display: flex;
+        gap: 10px;
+        
+        *{color: $second-text-color}
+    }
+   
+}
+
